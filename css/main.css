@@ -18,6 +18,19 @@ nav a {
 }
 
 /*pagina principal*/
+h2{
+	font-size: 21px;
+}
+
+.articulos{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.vermas{
+	margin: 20px;
+}
+
 .milargo{
 	max-height: 100px;
 }
@@ -27,7 +40,7 @@ nav a {
 }
 
 .tamano{
-	width: 150px;
+	width: 120px;
 	height: 200px;
 }
 
@@ -42,53 +55,34 @@ nav a {
 	text-align: center;
 }
 
+.lomas{
+	background: #F9F9F9;
+	float: right;
+	height: 1700px;
+}
+
+.ideas{
+	font-size: 13px;
+}
+
+.ofertas{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.teles{
+	margin-left: 60px;
+	color: #c9c9c9;
+	font-size: 30px;
+}
+
+.tarjetas{
+	margin: 20px;
+	text-align: center;
+}
 
 
-
-/* footer*/
-.footer-header{
-	background-color: #37475A;
-	width: 100%;
-}
-a p{
-	font-size: 100%;
-	margin-top: 1%;
-	margin-bottom: 0;
-}
-footer > a:hover{
-	background-color: #5a6b7f;
-}
-.white-text{
-	color: #fff;
-}
-footer a:hover{
-	color: #FFF;
-	font-size: 83%;
-}
-.aFooter{
-	color: #FFF;
-	font-size: 83%;
-}
-footer p{
-	color: #767676;
-}
-.copyright{
-	background-color:#131a22;
-	padding-bottom: 5%;
-	padding-top: 1%;
-}
-.color2{
-	background-color: #232F3E;
-}
-.color1{
-	background-color: #37475A;
-}
-footer ul{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-/*termina footer*/
 /*css nav*/
 #buttonSearch{
 	background-color:  #FEBD69;
@@ -142,3 +136,50 @@ footer ul{
 }
 /*css nav termina*/
 
+/*carrito*/
+.image{
+  width:100%;
+}
+
+.text-green{
+  color: #6DB782;
+}
+.btn-color{
+  background-color: #F3CC6C;
+}
+.bold{
+   font-weight: bold;
+}
+/*termina CARRITO*/
+/*FOOTER*/
+footer > a:hover{
+  background-color: #5a6b7f ;
+}
+.text-white{
+  color: #fff;
+}
+.text-white a{
+  color: #fff;
+}
+footer a:hover{
+  color: #FFF;
+}
+.aFooter{
+  color: #FFF;
+  font-size: 83%;
+}
+footer p{
+  color: #767676 ;
+}
+.copyright{
+  background-color:#131a22 ;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+.color2{
+  background-color: #232F3E ;
+}
+.color1{
+  background-color: #37475A ;
+}
+/*termina footer*/

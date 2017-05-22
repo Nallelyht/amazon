@@ -1,3 +1,47 @@
+/*carrito*/
 .image{
   width:100%;
 }
+
+.text-green{
+  color: #6DB782;
+}
+.btn-color{
+  background-color: #F3CC6C;
+}
+.bold{
+   font-weight: bold;
+}
+/*termina CARRITO*/
+/*FOOTER*/
+footer > a:hover{
+  background-color: #5a6b7f ;
+}
+.text-white{
+  color: #fff;
+}
+.text-white a{
+  color: #fff;
+}
+footer a:hover{
+  color: #FFF;
+}
+.aFooter{
+  color: #FFF;
+  font-size: 83%;
+}
+footer p{
+  color: #767676 ;
+}
+.copyright{
+  background-color:#131a22 ;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+.color2{
+  background-color: #232F3E ;
+}
+.color1{
+  background-color: #37475A ;
+}
+/*termina footer*/

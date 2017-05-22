@@ -71,7 +71,16 @@ h2{
 	flex-direction: column;
 }
 
+.teles{
+	margin-left: 60px;
+	color: #c9c9c9;
+	font-size: 30px;
+}
 
+.tarjetas{
+	margin: 20px;
+	text-align: center;
+}
 
 
 /*css nav*/

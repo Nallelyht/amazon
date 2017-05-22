@@ -64,3 +64,7 @@ h4, h5 {
 #opinion-clientes button {
 	background-color: #e7e9ec;
 }
+
+#opiniones-mas-recientes {
+	float: right;
+}

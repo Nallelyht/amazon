@@ -280,7 +280,7 @@
         </div>
     </section>
 
-    <section class="container" id="ofertas">
+    <section class="container-fluid" id="ofertas">
         <div class="row">
             <hr>
             <h5><strong>Ofertas especiales y promociones de productos</strong></h5>
@@ -293,7 +293,7 @@
             <hr>
         </div>
     </section>
-    <section id="detalle-envio" class="container">
+    <section id="detalle-envio" class="container-fluid">
         <div class="row">
             <h5><strong>Detalles del producto</strong></h5>
             <p><small>Nombre de estilo: <strong>Nacional</strong></small></p>
@@ -306,19 +306,19 @@
             <hr>
         </div>
     </section>
-    <section id="descripcion-item" class="container">
+    <section id="descripcion-item" class="container-fluid">
         <hr>
         <h5><strong>Descripción del producto</strong></h5>
         <span><small>Nombre de estilo: <strong>Nacional</strong></small></span>
         <p><small>Nintendo Switch es una consola de videojuego innovadora para el hogar. No solo se puede conectar a un televisor en tu casa, sino que también se transforma al instante en una consola portátil con una pantalla de 6.2 pulgadas. Por primera vez, los jugadores pueden disfrutar en cualquier momento y en cualquier lugar. La pantalla es capacitiva y multitáctil para los juegos compatibles. La batería puede durar más de 6 horas, pero la variación variará según el programa y las condiciones de uso.</small></p>
         <hr>
     </section>
-    <section id="opiniones" class="container">
-
+    <section id="opiniones" class="container col-md-6">
+      <section >
         <section class="col-md-5">
             <h5>Opiniones de clientes</h5>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <img src="assets/amazon-stars.dummy.png">
                     <span class="col-md-12">4,5 de un máximo de 5</span>
                     <table class="table table-condensed" id="tabla-calificaciones">
@@ -380,21 +380,14 @@
                     </table>
                     <span><a>Ver las 141 opiniones de clientes</a></span>
                 </div>
-                <div>
+                <div class="container-fluid col-md-4">
                     <p>Comparte tu opinión con otros clientes</p>
                     <button>Escribir mi opinión</button>
                 </div>
             </div>
-        </section>
-        <aside>
-            <section id="imagenes_clientes"></section>
-            <section id="opiniones_recientes">
-
             </section>
-        </aside>
-    </section>
-    <section class="container" id="opinion-clientes">
-        <div>
+        </section>
+        <div class="col-md-12" id="opinion-clientes">
             <h5>Opinion de clientes</h5>
             <div class="row">
                 <p><img src="assets/amazon-stars.dummy.png"> <strong>parece que la consola fue usada</strong></p>
@@ -460,11 +453,79 @@
             <a>Ver todas las 141 opiniones de clientes <strong>primero las más recientes)</strong></a>
             </div>
         </div>
-        <div class="container">
+        <div class="container col-md-12">
             <button>Escribir mi opinón</button>
             </div>
-
     </section>
+    
+    <!-- barra lateral -->
+        <section class="container-fluid col-md-4" id="opiniones-mas-recientes">
+          <div class="ofertas">
+            <h5 class="font-weight-bold"><strong>Imágenes de clientes</strong></h5>
+            <div class="row">
+                   <div class="col-md-3"><img src="https://dummyimage.com/80x100/ddd/000.jpg" class="thumbnail"></div>
+                  <div class="col-md-3"><img src="https://dummyimage.com/80x100/ddd/000.jpg" class="thumbnail">
+                  </div>
+                  <div class="col-md-3"><img src="https://dummyimage.com/80x100/ddd/000.jpg" class="thumbnail"></div>
+                  <div class="col-md-3"><img src="https://dummyimage.com/80x100/ddd/000.jpg" class="thumbnail">
+                  </div>
+                </div>
+            <span class="ideas"><a>Ver todas las imágenes de clientes</a></span>
+          </div>
+          <hr>
+          <div class="ofertas">
+            <h5><strong>Las opiniones más recientes</strong></h5>
+          </div>
+          <div>
+            <div class="col-md-12">
+              <img src="assets/amazon-stars.dummy.png"><span><small><strong>Siempre innovando</strong></small></span>
+              <p><small>Como es costumbre, Nintendo es punta de lanza en lo que ha "experiencias" se refiere. Siempre han innovado y el Nintendo Switch no es la excepción. <a>Leer más...</a></small></p>
+              <span class="gris"><small>Publicado hace 1 día por Cliente de Amazon</small></span>
+            </div>
+            <div class="col-md-12">
+              <img src="assets/amazon-stars.dummy.png"><span><small><strong>ATENCIÓN</strong></small></span>
+              <p><small>Me llegó una consola usada. Así que les pongo tres estrellas. En perfectas condiciones aclaro pero usado. <a>Leer más...</a></small></p>
+              <span class="gris"><small>Publicado hace 1 día por manuel ramos gonzález</small></span>
+            </div>
+            <div class="col-md-12">
+              <img src="assets/amazon-stars.dummy.png"><span><small><strong>Excelente consola</strong></small></span>
+              <p><small>Para todo fan de Nintendo este producto es perfecto.</small></p>
+              <p><small>Me sorprende la facilidad con la que puedes encender tu equipo y ponerte a jugar al instante. <a>Leer más...</a></small></p>
+              <span class="gris"><small>Publicado hace 3 días por Luis</small></span>
+
+            </div>
+            <div class="col-md-12">
+              <img src="assets/amazon-stars.dummy.png"><span><small>hermosa</small></span>
+              <p><small>Disculpen me equivoqué, este producto llegará pronto. Estoy esperándo para poderselo regalar  a mi hija que se gradúa como médico... <a>Leer más...</a></small></p>
+              <span class="gris"><small>Publicado hace 5 día por Dyaln Díaz</small></span>
+            </div>
+          </div>
+          <div>
+            <div class="col-md-12">
+              <img src="assets/amazon-stars.dummy.png"><span><small><strong>Siempre innovando</strong></small></span>
+              <p><small>Como es costumbre, Nintendo es punta de lanza en lo que ha "experiencias" se refiere. Siempre han innovado y el Nintendo Switch no es la excepción. <a>Leer más...</a></small></p>
+              <span class="gris"><small>Publicado hace 1 día por Cliente de Amazon</small></span>
+            </div>
+            <div class="col-md-12">
+              <img src="assets/amazon-stars.dummy.png"><span><small><strong>ATENCIÓN</strong></small></span>
+              <p><small>Me llegó una consola usada. Así que les pongo tres estrellas. En perfectas condiciones aclaro pero usado. <a>Leer más...</a></small></p>
+              <span class="gris"><small>Publicado hace 1 día por manuel ramos gonzález</small></span>
+            </div>
+            <div class="col-md-12">
+              <img src="assets/amazon-stars.dummy.png"><span><small><strong>Excelente consola</strong></small></span>
+              <p><small>Para todo fan de Nintendo este producto es perfecto.</small></p>
+              <p><small>Me sorprende la facilidad con la que puedes encender tu equipo y ponerte a jugar al instante. <a>Leer más...</a></small></p>
+              <span class="gris"><small>Publicado hace 3 días por Luis</small></span>
+
+            </div>
+            <div class="col-md-12">
+              <img src="assets/amazon-stars.dummy.png"><span><small>hermosa</small></span>
+              <p><small>Disculpen me equivoqué, este producto llegará pronto. Estoy esperándo para poderselo regalar  a mi hija que se gradúa como médico... <a>Leer más...</a></small></p>
+              <span class="gris"><small>Publicado hace 5 día por Dyaln Díaz</small></span>
+            </div>
+          </div>
+          
+        </section>
 
     <section id="cierre-item" class="container"></section>
     <!--footer-->
